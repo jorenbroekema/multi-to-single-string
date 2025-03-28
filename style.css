@@ -1,0 +1,20 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+textarea {
+  max-width: 300px;
+  height: 200px;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+#multi {
+  cursor: pointer;
+}
+
+#multi:hover {
+  border: 3px solid blue;
+}
